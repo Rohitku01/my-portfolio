@@ -212,10 +212,10 @@ strong{
   color: black; /* White text color */
 }
 
-.html {width: 9%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white}
-.css  {width: 6%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white}
-.js   {width: 5%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white} 
-.php  {width: 8%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white}
+.html {width: 90%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white}
+.css  {width: 60%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white}
+.js   {width: 50%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white} 
+.php  {width: 80%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white}
 
 .skill{
   margin-top: 0em;
