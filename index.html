@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./portf.css">
+  <script src="https://kit.fontawesome.com/9b4e8b64cd.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="https://github.com/Rohitku01" class="logo"><i class="fa-brands fa-github fa-bounce"></i></a>
+
+    <nav class="navbar">
+      <a href="http://127.0.0.1:5500/Portfolio/HTML/portf.html" style="color: crimson">Home</a>
+      <a href="#about" style="color: crimson">About</a>
+      <a href="#contact" style="color: crimson">Contact</a>
+      <a href="https://drive.google.com/file/d/1lQchjk-n8PCo9bceuPevWAeMxpPxFsZI/view?usp=drivesdk" style="color: crimson;">Resume</a>
+    </nav>
+  </header>
+
+
+  <section id="home">
+    <div class="container">
+      <div>
+        <span style="font-size: 14px; color: #ffbd39; font-weight: 800; margin-left: 20px;">Hello!</span>
+        <h1 style="font-size: 60px; margin-left: 20px;">
+          I'am
+
+          <span style="font-weight: 800; color: #ffbd39;"> Rohit Kumar</span>
+        </h1>
+
+        <h2
+          style="color: #fff; font-family:'Poppins', Arial, sans-serif; font-size: 30px; margin-bottom: 1rem; line-height: 1.5; font-weight: 400; text-align: left; margin-left: 40px;">
+          A Computer Science Student
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" style="min-height: 100vh; background-color: black;">
+    <div id="second">
+      <br /><br /><br /><br />
+      <h2>ABOUT</h2>
+      <br />
+      <p class="p1">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
+        Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+        Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <br />
+    </div>
+    <br />
+    <div id="myDiv">
+      <div>
+        <br />
+        <img src="./assests/Untitled.jpeg" width="340px" height="380px">
+      </div>
+      <br/>
+      <div style=" display: inline-block; background-color: black; justify-content: center;">
+        <br/>
+        <h3 id="h3">Full Stack Developer</h3>
+        <!-- <p id="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. </p> -->
+        <div class="row" style="justify-content: center;">
+          <ul id="ul1" style="color: crimson;">
+            <li>
+              <strong>Name:</strong>
+              <span class="spa">Rohit Kumar</span>
+            </li>
+            <br />
+            <li>
+              <strong>Date Of Birth:</strong>
+              <span class="spa">16 jan 2004</span>
+            </li>
+            <br />
+            <li>
+              <strong>City:</strong>
+              <span class="spa">Mohali, Punjab</span>
+            </li>
+            <br />
+            <li>
+              <strong>Mail:</strong>
+              <span class="spa">email@example.com</span>
+            </li>
+            <br />
+            <li>
+              <strong>Age:</strong>
+              <span class="spa">19</span>
+            </li>
+            <br />
+            <li>
+              <strong>Degree:</strong>
+              <span class="spa">B.Tech(CSE) Pursuing</span>
+            </li>
+            <br />
+            <li>
+              <strong>Experiance:</strong>
+              <span class="spa">Fresher</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="https://drive.google.com/file/d/1lQchjk-n8PCo9bceuPevWAeMxpPxFsZI/view?usp=drivesdk" type="button"
+      class="cta2" style="font-size: 12px; text-align: center;">DOWNLOAD CV</a>
+  </section>
+
+  <section id="SKILL" style=" height: 45vh; background-color: black">
+    <div class="skil">
+      <div class="title">
+        <br />
+        <h2>SKILL</h2>
+      </div>
+    </div>
+
+    <div id="section3-div" style="width: 100%; background-color: black; color: white;">
+      <strong class="skill">HTML</strong>
+      <div class="c">
+        <div class="skills html">9%</div>
+      </div>
+      <br />
+      <strong class="skill">CSS</strong>
+      <div class="c">
+        <div class="skills css">6%</div>
+      </div>
+      <br />
+      <strong class="skill">JavaScript</strong>
+      <div class="c">
+        <div class="skills js">5%</div>
+      </div>
+      <br />
+      <strong class="skill">C/C++</strong>
+      <div class="c">
+        <div class="skills php">8%</div>
+      </div>
+    </div>
+  </section>
+
+  <h2>Contact</h2>
+  <div class="contact-section" id="contact">
+    <div class="contact-info">
+      <div><i class="fas fa-map-marker-alt"></i>Address, City, Country</div>
+      <div><i class="fas fa-envelope"></i>rohitk43913@gmail.com</div>
+      <div><i class="fas fa-phone"></i>+00 0000 000 000</div>
+    </div>
+    <div class="contact-form">
+      <form class="contact" action="" method="post">
+        <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+        <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+        <textarea name="" id="" cols="20" rows="5" style="margin: 5px; width: 100%;" placeholder="message"></textarea>
+        <!-- <textarea name="message" rows="5" placeholder="Your Message" required><textarea> -->
+        <input type="submit" name="submit" class="send-btn" value="Send">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

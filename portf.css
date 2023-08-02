@@ -1,0 +1,422 @@
+*{
+    padding :0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 70px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+   font-weight: 700;
+}
+
+.navbar a{
+  font-size: 18px;
+  color: crimson;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none ;
+}
+.container {
+  background-color: #000000;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home{
+  font-size: 10px;
+  font-family:'Montserrat',sans-serif ; 
+  background-color: #000000;
+  background-size: cover;
+  background-position: top center ;
+  position:-ms-page ;
+  z-index: 1;
+  border-radius: 50%;
+} 
+
+#home h1{
+  font-size: 4rem;
+  color: white;
+}
+
+/* #home .cta{
+  display: inline-block;
+  padding: 10px 30px;
+  color: crimson;
+  background-color: transparent;
+  border: 2px solid crimson;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-top: 30px;
+  text-decoration: none;
+  transition-property: background-color,color;
+  margin: 30px;
+} */
+
+/* #home .cta:hover{
+  color: #fff;
+  background-color: crimson;
+} */
+
+.cta2{
+  display: inline-block;
+  padding: 10px 30px;
+  border:  1px solid #ffbd39;
+  color: #000000;
+  background: #ffbd39;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin: 30px;
+  text-decoration: none;
+  justify-content: space-between;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-radius: 40px;
+  font-family: "Poppins", Arial, sans-serif;
+  margin-left:  40%;
+}
+
+#about{
+  /* background-color: black; */
+  color: white;
+  /* width: 100%; */
+  min-height: 100vh;
+}
+    
+#second{
+  font-family: "Poppins", Arial, sans-serif;
+  text-align: center;
+}
+    
+h2{
+  font-weight: 600;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+
+.p1{
+  font-family: "Poppins", Arial, sans-serif;
+  color: #999999;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+    
+#h3{
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+  text-align: left;
+  margin-left: 30px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Raleway", sans-serif;
+}
+    
+.row{
+  /* background-color: black;  */
+  /* max-width: 100%; */
+  margin: 30px;
+}
+
+#p2{
+  font-style: italic !important;
+  color:  #999999;
+  font-size: 20px;
+  text-align: left;
+}
+    
+    
+#myDiv {
+  /* height: 100%; */
+  /* background-color: black; */
+  margin: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-left: 10%;
+}
+
+#ul1{
+  text-align: left;
+  margin: 20px;
+  justify-content: center;
+}
+
+strong{
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 18;
+}
+
+.spa{
+  font-family: "Poppins", Arial, sans-serif;
+  color: #999999;
+}
+
+
+.skill{
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 0px; /* Add top padding */
+  padding-bottom: 0px; /* Add bottom padding */
+   /* White text color */
+}
+
+.html {width: 100%; background-color: crimson;} /* Green */
+.css  {width: 100%; background-color: crimson;} /* Blue */
+.js   {width: 100%; background-color: crimson;} /* Red */
+.php  {width: 100%; background-color: crimson;} /* Dark Grey */
+
+
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 0px; /* Add top padding */
+  padding-bottom:0px; /* Add bottom padding */
+  color: black; /* White text color */
+}
+
+.html {width: 9%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white}
+.css  {width: 6%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white}
+.js   {width: 5%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white} 
+.php  {width: 8%; background-color: crimson; height: 15px; font-size: 12px; font-weight: 900; color:white}
+
+.skill{
+  margin-top: 0em;
+  color: white;
+}
+.section3-div{
+  background-color: black;
+}
+
+.contact-section{
+  min-height: 80vh;
+  background-color: #000;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info{
+  color: #fff;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.contact-info i{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.contact-form{
+  max-width: 700px;
+  margin-right: 50px;
+}
+
+.contact-info, .contact-form{
+  flex: 1;
+}
+
+.contact-form h2{
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.contact-form .text-box{
+  background: #000;
+  color: #fff;
+  width: calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .text-box:first-child{
+  margin-right: 15px;
+}
+
+.contact-form textarea{
+  background: #000;
+  color: #fff;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .send-btn{
+  float: right;
+  background: #2E94E3;
+  color: #fff;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.contact-form .send-btn:hover{
+  background: #0582E3;
+}
+
+@media screen and (max-width: 950px){
+  .contact-section{
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form{
+    margin: 30px 50px;
+  }
+
+  .contact-form h2{
+    font-size: 30px;
+  }
+
+  .contact-form .text-box{
+    width: 100%;
+  }
+}
+
+/*css for alert messages*/
+
+.alert-success{
+  z-index: 1;
+  background: #D4EDDA;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #3AD66E;
+  border-radius: 4px;
+}
+
+.alert-error{
+  z-index: 1;
+  background: #FFF3CD;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #FFA502;
+  border-radius: 4px;
+}
+/* #resume{
+  background-color: black;
+  min-height: 50vh;
+}
+
+.down{
+  display: inline-block;
+  padding: 10px 30px;
+  color: crimson;
+  border: 2px solid crimson;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-top: 30px;
+  margin: 30px;
+  text-decoration: none;
+  transition-property: background-color,color;
+  justify-content: space-between;
+}
+
+.down:hover{
+  color: white;
+  background-color: crimson;
+}
+.con{
+font-family: "Poppins", Arial, sans-serif;
+font-weight: 600;
+color: #fff;
+font-weight: bolder;
+font-size: 18;
+}
+
+.rowc{
+
+  margin: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-top: 30px;
+}
+
+.box{
+  width: 100%;
+  margin: 5px;
+  height: 20px;
+}
+
+.btn{
+  color: crimson;
+  transition-property: background-color,#ffbd39;
+  justify-content: space-between;
+} */
